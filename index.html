@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://wallpapercave.com/wp/wp5134458.jpg"/>
+    <title>new year countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+    <div class="container">
+        <h1 class="text">The New Year Is Coming Soon!</h1>
+        
+        
+        <div id="countdown">
+          <div class="mark">  
+            <h6>created by daniel &copy;2024</h6>
+          </div>
+          <div class="circle" style="--clr: #ff4c4c;">
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="dd"></circle>
+            </svg>
+            <div id="days">000<br><span>Days</span></div>
+          </div>
+      
+          <div class="circle" style="--clr: #ffd700;">
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="hh"></circle>
+            </svg>
+            <div id="hours">00<br><span>Hours</span></div>
+          </div>
+      
+          <div class="circle" style="--clr: #ffc0cb;">
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="mm"></circle>
+            </svg>
+            <div id="minutes">00<br><span>Minutes</span></div>
+          </div>
+      
+          <div class="circle" style="--clr: #b0e0e6;">
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="ss"></circle>
+            </svg>
+            <div id="seconds">00<br><span>Seconds</span></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- share/social menu -->
+      <div class="menu">
+        <div class="overlay"></div>
+        <div class="share-container">
+          <div id="help">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+          <ul class="shareMenu">
+            <li><span>share</span></li>
+            <li style="--i:0;--clr:#1877f2;">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://newyearcountdownbyme.netlify.app/" target="_blank" rel="nofollow noopener">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li style="--i:1;--clr:#25d366;">
+              <a href="whatsapp://send?text=https://newyearcountdownbyme.netlify.app/" target="_blank" rel="nofollow noopener">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li style="--i:2;--clr:#1da1f2;">
+              <a href="https://twitter.com/intent/tweet?url=https://newyearcountdownbyme.netlify.app/&text=New%20Year%20Countdown%20Using%20JavaScript&via=thenabinbhatt" target="_blank" rel="nofollow noopener">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li style="--i:4;--clr:#0077b5;">
+              <a href="https://www.linkedin.com/shareArticle?url=https://newyearcountdownbyme.netlify.app/&title=New%20Year%20Countdown%20Using%20JavaScript" target="_blank" rel="nofollow noopener">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-container">
+          <ul class="socialMenu">
+            <li><span>Me</span></li>
+            <li style="--i:0;--clr:#1da1f2;">
+              <a href="https://twitter.com/thenabinbhatt" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li style="--i:1;--clr:#fd1d1d;">
+              <a href="https://instagram.com/nabincodes" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li style="--i:2;--clr:#0077b5;">
+              <a href="https://linkedin.com/in/nabinbhatt" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li style="--i:3;--clr:#333;">
+              <a href="https://github.com/nabinbhatt" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <canvas id="snowflakes"></canvas>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="notes.js"></script>  
+</body>
+</html>
